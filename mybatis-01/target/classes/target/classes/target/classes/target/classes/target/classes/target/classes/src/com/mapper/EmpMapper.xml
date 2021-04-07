@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.EmpMapper">
+    <select id="selectByJob" parameterType="String" resultType="src.com.po.Emp">
+        select * from glxt.emp where job in (select  job from emp where ename=#{ename} )
+    </select>
+
+    <update id="deleteByJob" parameterType="String">
+        create table  tmp (select job from glxt.emp where ename=#{ename});
+        delete from glxt.emp  where job in (select job from tmp);
+        drop table glxt.tmp;
+    </update>
+
+
+    <insert id="addEmp" parameterType="src.com.po.Emp"
+            flushCache="true"
+            statementType="PREPARED"
+            keyColumn=""
+            keyProperty="empno"
+            useGeneratedKeys="true"
+            timeout="20"
+    >
+        insert into glxt.emp (empno,ename,job,mgr,hiredate,sal,comm,deptno)
+            value(#{empno},#{ename},#{job},#{mgr},#{hiredate},#{sal},#{comm},#{deptno})
+    </insert>
+
+    <update id="updateEmp" parameterType="src.com.po.Emp"
+            flushCache="true"
+            statementType="PREPARED"
+            timeout="20"
+    >
+        update glxt.emp set ename=#{ename},job=#{job},mgr=#{mgr},
+                            hiredate=#{hiredate},sal=#{sal},comm=#{comm},deptno=#{deptno}
+        where empno =#{empno}
+    </update>
+</mapper >
