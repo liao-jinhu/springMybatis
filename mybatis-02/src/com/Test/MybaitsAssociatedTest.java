@@ -20,4 +20,6 @@ public class MybaitsAssociatedTest {
         System.out.println(person);
         sqlSession.close();
     }
+
+
 }

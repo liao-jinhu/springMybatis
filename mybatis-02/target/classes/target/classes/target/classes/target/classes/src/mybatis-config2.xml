@@ -23,5 +23,10 @@
     <mappers>
         <mapper resource="src/com/mapper/IdCardMapper.xml"/>
         <mapper resource="src/com/mapper/PersonMapper.xml"/>
+        <mapper resource="src/com/mapper/UserMapper.xml"/>
+        <mapper resource="src/com/mapper/OrdersMapper.xml"/>
+        <mapper resource="src/com/mapper/ProductMapper.xml"/>
+
+
     </mappers>
 </configuration>

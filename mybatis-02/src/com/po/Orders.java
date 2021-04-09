@@ -1,8 +1,11 @@
 package src.com.po;
 
+import java.util.List;
+
 public class Orders {
     private Integer id;
     private String number;
+    private List<Product> productList;
 
     public Integer getId() {
         return id;
@@ -25,6 +28,7 @@ public class Orders {
         return "Orders{" +
                 "id=" + id +
                 ", number='" + number + '\'' +
+                ", productList=" + productList +
                 '}';
     }
 }

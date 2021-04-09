@@ -8,6 +8,7 @@ public class Product {
     private double price;
     private List<Orders> orders;
 
+
     public Integer getId() {
         return id;
     }
