@@ -6,3 +6,11 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+mybatis-01/target/
+mybatis-02/target/
+
+
+#idea
+.idea/
+*.iml
