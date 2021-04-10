@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.CustomerMapper">
+    <select id="findCustomerByID" parameterType="Integer" resultType="src.com.po.Customer" >
+    select * from t_customer where id = #{id}
+  </select>
+
+    <select id="findCustomerByName" parameterType="String" resultType="src.com.po.Customer" >
+    select * from t_customer where username like '%${value}%'
+  </select>
+
+    <!--
+    <insert id="addCustomer" parameterType="com.po.Customer">
+        insert into t_customer(username,jobs,phone)
+        value(#{username},#{jobs},#{phone})
+    </insert>
+
+    -->
+
+    <insert id="addCustomer" parameterType="src.com.po.Customer"
+    flushCache="true"
+            statementType="PREPARED"
+            keyColumn=""
+            keyProperty="id"
+            useGeneratedKeys="true"
+            timeout="20"
+    >
+        insert into t_customer(username,jobs,phone)
+        value(#{username},#{jobs},#{phone})
+    </insert>
+
+
+
+    <update id="updateCustomer" parameterType="src.com.po.Customer"
+    flushCache="true"
+            statementType="PREPARED"
+            timeout="20"
+    >
+        update t_customer set username=#{username},jobs=#{jobs},phone=#{phone}
+        where id =#{id}
+    </update>
+
+    <delete id="deleteCustomer" parameterType="Integer"
+            flushCache="true"
+            statementType="PREPARED"
+            timeout="20">
+        delete  from t_customer  where id =#{id}
+    </delete>
+
+
+</mapper>

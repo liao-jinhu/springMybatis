@@ -14,7 +14,7 @@ select * from mybatis.tb_orders  where id=#{id}
         </collection>
     </resultMap>
 
-    <select id="findOrderWithProduct2" parameterType="Integer" resultMap="OrderWithProductResult2">
+    <select id="findOrdersWithProduct2" parameterType="Integer" resultMap="OrderWithProductResult2">
         select o.*,p.id as pid,p.name,p.price from mybatis.tb_orders o,mybatis.tb_product p,mybatis.tb_ordersitem oi
 where oi.orders_id =o.id
 and oi.product_id =p.id

@@ -3,7 +3,7 @@ package src.com.po;
 public class User {
     private  int id;
     private String username;
-    private String pwd;
+    private String password;
 
     public int getId() {
         return id;
@@ -21,12 +21,13 @@ public class User {
         this.username = username;
     }
 
-    public String getPwd() {
-        return pwd;
+
+    public String getPassword() {
+        return password;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
@@ -34,7 +35,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", pwd='" + pwd + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
 }

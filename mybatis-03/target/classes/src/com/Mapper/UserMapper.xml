@@ -3,16 +3,25 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mapper.UserMapper">
-    <select id="getUserById" resultType="src.com.po.User" parameterType="Int">
-        select * from mybatis.user where id=#{id}
-    </select>
+    <resultMap id="resultMap" type="User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="pwd"/>
+    </resultMap>
 
-    <insert id="addUser" parameterType="src.com.po.User">
-        insert into mybatis.user(id,username,pwd) values(#{id},#{username},#{pwd})
+    <select id="getUserById" resultMap="resultMap">
+        select * from mybatis.user;
+    </select>
+    <insert id="addUser"
+            parameterType="User"
+            flushCache="true"
+            statementType="PREPARED"
+            timeout="20"
+    >
+        insert into  mybatis.user(id,username,pwd) values (#{id},#{username},#{password})
     </insert>
 
     <delete id="deleteUser" parameterType="int">
     delete from mybatis.user where id=#{id}
     </delete>
-
 </mapper>
