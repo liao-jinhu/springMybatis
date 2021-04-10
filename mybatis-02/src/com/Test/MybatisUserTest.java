@@ -23,6 +23,15 @@ public class MybatisUserTest {
         session.close();
     }
 
+    @Test
+    public void findOrdersTest2(){
+        SqlSession session = MybatisUtils2.getSession();
+        Orders order = session.selectOne("com.mapper.OrderMapper.findOrdersWithProduct2",1);
+        System.out.println(order);
+        session.close();
+    }
+
+
 
 }
 

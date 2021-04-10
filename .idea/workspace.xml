@@ -14,18 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4901ef8e-e2c7-4126-9b26-92f0e1d39527" name="Default Changelist" comment="2021/4/7">
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/com/mapper/OrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-02/src/com/mapper/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/com/Test/MybaitsAssociatedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/com/Test/MybaitsAssociatedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-02/src/com/Test/MybatisUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/com/Test/MybatisUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/com/po/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/com/po/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/com/po/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/com/po/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/mybatis-config2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/src/com/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/com/mapper/OrdersMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/Test/MybatisUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/Test/MybatisUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/po/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/po/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/src/mybatis-config2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/src/com/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/com/mapper/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/src/mybatis-config2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -98,19 +100,21 @@
       <recent name="C:\Users\ljh20\IDEA Workspaces\springMybatis\mybatis-02\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisUserTest.findOrdersTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisUserTest.findOrdersTest2">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybaitsAssociatedTest.findPersonByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.findByJoy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-02" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.Test" />
-      <option name="MAIN_CLASS_NAME" value="src.com.Test.MybaitsAssociatedTest" />
-      <option name="METHOD_NAME" value="findPersonByIdTest" />
+      <option name="MAIN_CLASS_NAME" value="src.com.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="findByJoy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,21 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.com.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.com.Test" />
-      <option name="MAIN_CLASS_NAME" value="src.com.Test.MybatisUserTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisUserTest.findOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-02" />
       <extension name="coverage">
@@ -168,6 +157,22 @@
       <option name="PACKAGE_NAME" value="src.com.Test" />
       <option name="MAIN_CLASS_NAME" value="src.com.Test.MybatisUserTest" />
       <option name="METHOD_NAME" value="findOrdersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisUserTest.findOrdersTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.com.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.com.Test" />
+      <option name="MAIN_CLASS_NAME" value="src.com.Test.MybatisUserTest" />
+      <option name="METHOD_NAME" value="findOrdersTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisUserTest.findOrdersTest2" />
         <item itemvalue="JUnit.MybatisUserTest.findOrdersTest" />
         <item itemvalue="JUnit.MybatisUserTest.findUserTest" />
+        <item itemvalue="JUnit.MyBatisTest.findByJoy" />
         <item itemvalue="JUnit.MybaitsAssociatedTest.findPersonByIdTest2" />
-        <item itemvalue="JUnit.MybatisUserTest" />
-        <item itemvalue="JUnit.MybaitsAssociatedTest.findPersonByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +232,22 @@
       <workItem from="1617796113398" duration="2427000" />
       <workItem from="1617804642817" duration="1844000" />
       <workItem from="1617808458392" duration="28000" />
-      <workItem from="1617958131595" duration="10690000" />
+      <workItem from="1617958131595" duration="10912000" />
+      <workItem from="1617980230439" duration="2142000" />
+      <workItem from="1617982417936" duration="1351000" />
+      <workItem from="1617983809999" duration="627000" />
+      <workItem from="1617984454302" duration="135000" />
+      <workItem from="1617984602241" duration="55000" />
+      <workItem from="1617985042289" duration="186000" />
+      <workItem from="1617985251793" duration="312000" />
+      <workItem from="1617985629500" duration="129000" />
+      <workItem from="1617986002626" duration="20000" />
+      <workItem from="1617987675010" duration="15000" />
+      <workItem from="1617987730968" duration="39000" />
+      <workItem from="1617987874822" duration="32000" />
+      <workItem from="1618016657505" duration="293000" />
+      <workItem from="1618017001859" duration="776000" />
+      <workItem from="1618017800090" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="2021/4/7">
       <created>1617797345011</created>
@@ -259,6 +279,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="2021/4/7" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="502" y="235" key="#Notifications" timestamp="1617985660842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="235" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1617985660842" />
+    <state x="361" y="53" key="#Plugins" timestamp="1617984470747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1617984470747" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1617962421831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,10 +311,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="279" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1617968919808" />
-    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1617547641659">
+    <state x="445" y="153" key="FileChooserDialogImpl" timestamp="1618017638593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617547641659" />
+    <state x="445" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618017638593" />
     <state x="626" y="309" key="Github.ShareDialog" timestamp="1617805128831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,22 +323,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="109" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617805153717" />
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1617968926753">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1618019105279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617968926753" />
-    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1617968926753">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618019105279" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1618019105279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617968926753" />
-    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1617968926753">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618019105279" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1618019105279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617968926753" />
-    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1617968926753">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618019105279" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1618019105279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617968926753" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618019105279" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1617724476790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,14 +359,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1615987168288" />
+    <state x="449" y="253" key="Performance.Activity.Monitor" timestamp="1617985284752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="253" key="Performance.Activity.Monitor/0.0.1536.824@0.0.1536.824" timestamp="1617985284752" />
     <state x="468" y="113" key="RollbackChangesDialog" timestamp="1617805563057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1617805563057" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1617805415660">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1618017787727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1617805415660" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1618017787727" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617962930623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -359,10 +391,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="626" y="20" width="602" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617958861698" />
-    <state x="178" y="72" key="new project wizard" timestamp="1617532511503">
+    <state x="178" y="72" key="new project wizard" timestamp="1617980905491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617532511503" />
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1617980905491" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617514128226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -3,14 +3,14 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mapper.OrderMapper">
-    <select id="findOdrderWithProduct" parameterType="Integer" resultMap="OrderWithProductResult">
+    <select id="findOrdersWithProduct" parameterType="Integer" resultMap="OrdersWithProductResult">
 select * from mybatis.tb_orders  where id=#{id}
     </select>
-    <resultMap id="OrderWithProductResult" type="Orders">
+    <resultMap id="OrdersWithProductResult" type="Orders">
         <id property="id" column="id"/>
         <result property="number" column="number"/>
         <collection property="productList" column="id" ofType="Product"
-            select="com.mapper.OrderMapper.findProductById">
+            select="com.mapper.ProductMapper.findProductById">
         </collection>
     </resultMap>
 </mapper>
