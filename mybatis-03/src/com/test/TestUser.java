@@ -16,13 +16,20 @@ public class TestUser {
             System.out.println(user);
         }
         sqlSession.close();
+        SqlSession sqlSession2 = MybatisUtils.getSession();
+        System.out.println("--------------------------");
+        List<User> list2 = sqlSession2.selectList("com.mapper.UserMapper.getUserById");
+        for (User user3: list2){
+            System.out.println(user3);
+        }
+        sqlSession.close();
     }
 
     @Test
     public void addUser(){
         SqlSession sqlSession = MybatisUtils.getSession();
         User user = new User();
-        user.setId(12);
+        user.setId(14);
         user.setUsername("liaojinhu");
         user.setPassword("654987");
         int row = sqlSession.insert("com.mapper.UserMapper.addUser",user);
